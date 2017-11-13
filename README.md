@@ -1,9 +1,9 @@
 # Project 9 - Honeypot 
 
-Time spent: **16** hours spent in total
+- Time spent: **16** hours spent in total
 
-Honeypot deplayed:
-- Dionaea with HTTP
+- Honeypot deployed:
+  - Dionaea with HTTP
 
 ## Issues Encountered
 - Took some time to figure out how to utilize Google Cloud. 
@@ -23,14 +23,20 @@ Honeypot deplayed:
 - Number of Malware Samples
   - 672
 - Top 5 Attacker IPs:
-  -  24.193.197.43 (611 attacks)
-  -  81.140.10.255 (83 attacks)
-  -  158.69.241.18 (70 attacks)
-  -  195.154.181.191 (53 attacks)
-  -  191.101.167.7 (28 attacks)
+  - 24.193.197.43 (611 attacks)
+  - 81.140.10.255 (83 attacks)
+  - 158.69.241.18 (70 attacks)
+  - 195.154.181.191 (53 attacks)
+  - 191.101.167.7 (28 attacks)
+- Top 5 Attacked Ports:
+  - 5060 (144 times)
+  - 80 (85 times)
+  - 23 (81 times)
+  - 3389 (10 times)
+  - 8545 (10 times)
 
 ## Unresolved Questions from Data
 - We are given the date, country, sourceIP, destination port, and protocol of the attack. But this is just surface level information. 
 
 ## Note
-- json export of the data 
+- [json export of the data](https://github.com/justinfchin/codepath_wk9/blob/master/session.json) 
